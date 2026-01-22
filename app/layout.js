@@ -74,6 +74,22 @@ export default function RootLayout({ children }) {
                   Blog
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/profile"
+                  className="text-black-600 font-semibold hover:underline"
+                >
+                  Profile
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/login"
+                  className="text-black-600 font-semibold hover:underline"
+                >
+                  Login
+                </Link>
+              </li>
             </ul>
           </nav>
         </header>

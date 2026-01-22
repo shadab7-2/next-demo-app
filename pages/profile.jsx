@@ -20,7 +20,7 @@ export default function profile() {
     <div>
       <h1>User Profile</h1>
       <p>
-        Welcome, <b>{data.user.email}</b>!
+        Welcome, <b>{data && data.user.email}</b>!
       </p>
       <p>
         This is protected page. You can only see this if you are logged in .

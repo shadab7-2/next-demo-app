@@ -12,7 +12,7 @@ export default NextAuth({
 
       async authorize(credentials){
         //basic validation
-        if(credentials.email === "Shadab@gmail.com" && credentials.password === "password"){
+        if(credentials.email === "Shadab@gmail.com" && credentials.password === " "){
             return { id: '1', name :"Test User", email : "Shadab@gmail.com"};
         }
         return null;
